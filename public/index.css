@@ -1,0 +1,64 @@
+html {
+  font-size: 16px;
+}
+
+.content {
+  display: flex;
+  padding: 0.625em;
+}
+#list_wrapper {
+  display: flex;
+  padding: 0.625em;
+  align-items: flex-start;
+}
+
+.middle_wrapper {
+  border: 0.0625em solid #000;
+  border-radius: 0.3125em;
+  flex: 10;
+  display: flex;
+  align-items: flex-start;
+}
+
+.right_wrapper {
+  border: 0.0625em solid #000;
+  border-radius: 0.3125em;
+  margin-left: 0.625em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.operation {
+  margin-bottom: 0.625em;
+}
+
+
+/* table的样式 */
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-right: 0.3125em;
+}
+th,tr,td,caption{
+  border: 0.0625em solid #000;
+  margin: 0;
+  padding: 0.625em;
+  text-align: center;
+  white-space: nowrap;
+}
+th:hover,td:hover{
+  background-color: #c0d3e2;
+}
+caption{
+  background-color: #f6f8fa;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+th{
+  background-color: #f6f8fa;
+}
+

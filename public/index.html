@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="content">
+
+    <div class="middle_wrapper">
+    </div>
+    <div class="right_wrapper">
+      <div class="enter_target">
+        <p>目标串（以#号结束）</p>
+        <textarea name="" id="target" cols="30" rows="10"></textarea>
+      </div>
+      <div class="operation">
+        <button class="btn" id="confirm">确定</button>
+        <button class="btn" id="prev">上一步</button>
+        <button class="btn" id="next">下一步</button>
+        <button class="btn" id="all">输出全部过程</button>
+        <button class="btn" id="show_list">显示first、follow、select集</button>
+      </div>
+
+    </div>
+  </div>
+  <div id="list_wrapper" style="display: none;">
+  </div>
+</body>
+
+</html>
+<script src="/js/interpret.js" type="module"></script>
+<script src="/js/render.js" type="module"></script>
